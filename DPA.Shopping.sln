@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DPA.Shopping.API", "DPA.Shopping.API\DPA.Shopping.API.csproj", "{4D7BD0D7-33A0-4042-845E-209DEC19895C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DPA.shopping.DOMIAN", "DPA.shopping.DOMIAN\DPA.shopping.DOMIAN.csproj", "{0C74E709-28DD-4C18-83C3-BDC3672D1CF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D7BD0D7-33A0-4042-845E-209DEC19895C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D7BD0D7-33A0-4042-845E-209DEC19895C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D7BD0D7-33A0-4042-845E-209DEC19895C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D7BD0D7-33A0-4042-845E-209DEC19895C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C74E709-28DD-4C18-83C3-BDC3672D1CF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C74E709-28DD-4C18-83C3-BDC3672D1CF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C74E709-28DD-4C18-83C3-BDC3672D1CF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C74E709-28DD-4C18-83C3-BDC3672D1CF1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1ECF598E-507D-499C-87C5-5790714B17B3}
+	EndGlobalSection
+EndGlobal
