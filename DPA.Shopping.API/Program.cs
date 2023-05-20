@@ -15,6 +15,8 @@ builder.Services.AddDbContext<StoreDbContext>(options =>
 
 builder.Services
     .AddTransient<ICategoryRepository, CategoryRepository>();
+builder.Services
+    .AddTransient<IFavoriteRepository, FavoriteRepository>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
